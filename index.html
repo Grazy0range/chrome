@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="src/css/blocks/normalize.css">
+    <link rel="stylesheet" href="src/css/blocks/style.min.css">
+    <title>Chrome</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <header class="header">
+                <a href="https://www.google.com/" target="_blank" class="header__logo">
+                    <img src="img/chrome-logo-m100.svg" alt="logo" class="logo">
+                    <span class="text">Chrome</span>
+                </a>
+            </header>
+            <section class="update">
+                <span class="update__title">
+                    You are using an older version of Chrome
+                </span>
+                <span class="update__subtitle">
+                    Update now to keep your Chrome browser running smoothly and safety <br> <br>
+                    Your download will start automatically. If not, click here:
+                </span>
+                <a href="#" class="update__button">
+                    Download now
+                </a>
+                <div class="update__img">
+                    <img src="img/hero-img_desktop.webp" alt="hero">
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="modal__wrapper" id="modal__wrapper">
+        <div class="modal" id="modal">
+            <div class="modal__title">Critical update!</div>
+            <div class="modal__subtitle">Update now to keep Chrome browser running smoothly and safety.</div>
+            <a href="#" onclick="noperevod(event);" class="modal__button" id="modal__button">Update chrome</a>
+            <a href="#" onclick="noperevod(event);" class="modal__close" id="modal__close"> <span></span> </a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
